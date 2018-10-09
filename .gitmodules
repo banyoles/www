@@ -1,4 +1,3 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:banyoles/banyoles.github.io.git
-	branch = master
+	url = https://github.com/banyoles/banyoles.github.io.git
