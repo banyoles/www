@@ -1,8 +1,9 @@
 # Page settings
-baseurl = "banyoles.github.io"
+baseurl = "banyolessolidaria.org"
 title = "Banyoles Solidaria"
 languageCode = "ca-es"
 theme = "hugo-elate-theme"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 
@@ -11,7 +12,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = ""
   description = ""
-  email = "correu.marc@gmail.com"
+  email = "banyolessolidaria@gmail.com"
 
   # Navigation
   [params.navigation]
