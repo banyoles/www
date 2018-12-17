@@ -75,7 +75,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
       [[params.intro.item]]
         title = "Blog"
-        description = "Banyoles. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        description = "Banyoles solidaria. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
         url = "http://banyolessolidaria.blogspot.com/"
         button = "Segueixe'ns"
         icon = "icon-feed"
