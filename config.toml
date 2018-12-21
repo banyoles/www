@@ -41,7 +41,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Hero section
   [params.hero]
     title = "Banyoles Solidària"
-    subtitle = 'Gent diversa i ideològicament plural'
+    subtitle = 'Gent diversa i ideològicament plural<br />*Web en construcció*'
 
 
   # Work section
