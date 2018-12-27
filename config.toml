@@ -18,6 +18,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.navigation]
     brand = "Banyoles Solidària"
     home = "Qui som?"
+    intro = "Segueix-nos"
     work = "Què fem?"
     testimonials = "On treballem?"
     services = "Què pots fer tu?"
@@ -44,6 +45,42 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     subtitle = 'Gent diversa i ideològicament plural'
 
 
+# Intro section (Secció seguexe'ns)
+# Available icons: http://simplelineicons.com/
+  [params.intro]
+    enable = true
+    title = "Segueix-nos"
+    
+    [[params.intro.item]]
+      title = "Blog"
+      description = "Banyoles solidaria. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      url = "http://banyolessolidaria.blogspot.com/"
+      button = "Segueixe'ns"
+      icon = "icon-feed"
+      img = "img_7.jpg"
+
+    [[params.intro.item]]
+      title = "Facebook"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      url = "https://ca-es.facebook.com/banyoles.solidaria"
+      button = "Segueixe'ns"
+      icon = "icon-facebook"
+      img = "img_8.jpg"
+
+    [[params.intro.item]]
+      title = "Twitter"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      url = "https://twitter.com/BanyolesE"
+      button = "Segueixe'ns"
+      icon = "icon-twitter"
+      img = "img_10.jpg"
+
+    [params.intro.video]
+      enable = false
+      title = "Watch the video"
+      icon = "icon-play2"
+      url = "https://vimeo.com/channels/staffpicks/93951774"
+      
   # Work section
   [params.work]
     enable = true
@@ -69,39 +106,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = "Project 3"
       subtitle = "Design"
 
-      # Intro section
-      # Available icons: http://simplelineicons.com/
-      [params.intro]
-
-      [[params.intro.item]]
-        title = "Blog"
-        description = "Banyoles solidaria. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-        url = "http://banyolessolidaria.blogspot.com/"
-        button = "Segueixe'ns"
-        icon = "icon-feed"
-        img = "img_7.jpg"
-
-      [[params.intro.item]]
-        title = "Develop"
-        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-        url = "#"
-        button = "Click Me"
-        icon = "icon-puzzle"
-        img = "img_8.jpg"
-
-      [[params.intro.item]]
-        title = "Launch"
-        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-        url = "#"
-        button = "Why us?"
-        icon = "icon-rocket"
-        img = "img_10.jpg"
-
-      [params.intro.video]
-        enable = true
-        title = "Watch the video"
-        icon = "icon-play2"
-        url = "https://vimeo.com/channels/staffpicks/93951774"
+      
 
   # Testimonials section
   [params.testimonials]
