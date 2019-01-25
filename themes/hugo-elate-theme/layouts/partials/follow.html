@@ -1,0 +1,25 @@
+	<section id="fh5co-follow" data-section="follow">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">{{ with .Site.Params.follow.title }}{{ . | markdownify }}{{ end }}</h2>
+    			<div class="row">
+    				{{ range .Site.Params.follow.item }}
+    				<div class="fh5co-block to-animate" style="background-image: url(images/{{ .img }});">
+    					<div class="overlay-darker"></div>
+    					<div class="overlay"></div>
+    					<div class="fh5co-text">
+    						<i class="fh5co-intro-icon {{ .icon }}"></i>
+    						<h2>{{ .title }}</h2>
+    						<p>{{ .description }}</p>
+    						{{ if .button}}
+    						<p><a href="{{ .url }}" target="_blank" class="btn btn-primary">{{ .button}}</a></p>
+    						{{ end }}
+    					</div>
+    				</div>
+    				{{ end }}
+    			</div>
+				</div>
+			</div>
+		</div>
+	</section>
