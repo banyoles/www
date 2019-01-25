@@ -24,7 +24,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     services = "Què pots fer tu?"
     about = "Qui som?"
     follow = "Segueix-nos"
-    contact = "Contacta'ns"
+    contact = "Contacta"
     social = [
         ["icon-feed", "http://banyolessolidaria.blogspot.com/"],
         ["icon-twitter", "https://twitter.com/BanyolesE"],
@@ -92,7 +92,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.work]
     enable = true
     title = "On treballem?"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Els nostres projectes internacionals"
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
