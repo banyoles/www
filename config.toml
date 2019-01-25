@@ -25,7 +25,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     about = "Qui som?"
     follow = "Segueix-nos"
     contact = "Contacta'ns"
-
+    social = [
+        ["icon-feed", "http://banyolessolidaria.blogspot.com/"],
+        ["icon-twitter", "https://twitter.com/BanyolesE"],
+        ["icon-facebook", "https://ca-es.facebook.com/banyoles.solidaria"]
+      ]
+      
     # You can add custom links before or after the default links
     # Assign a weight to define the order
 
@@ -136,7 +141,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   # Testimonials section
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Experiències"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -160,7 +165,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   # Services section
   [params.services]
-    enable = false
+    enable = true
     title = "Què pots fer tu?"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -238,7 +243,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       #]
 
   [params.follow]
-    enable = true
+    enable = false
     title = "Segueix-nos"
     
     [[params.follow.item]]

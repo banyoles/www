@@ -1,6 +1,6 @@
     <header role="banner" id="fh5co-header">
         <div class="container">
-            <!-- <div class="row"> -->
+             <div class="row">
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button -->
@@ -47,13 +47,17 @@
                     {{ if .Site.Params.contact.enable }}
                     <li><a href="#" data-nav-section="contact"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
-
+                    
+                    {{ range .Site.Params.navigation.social }}
+          					<li><a class="external"  target=”_blank” href="{{ index . 1 }}"><i class="{{ index .  0 }}"></i></a></li>
+          					{{ end }}
+          					
                     {{ range .Site.Menus.postpend }}
-                        <li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                        <li><a class="external" href="{{ .URL }}"><span>{{ .Nname | markdownify }}</span></a></li>
                     {{ end }}
                 </ul>
             </div>
         </nav>
-        <!-- </div> -->
+        </div>
     </div>
 </header>
