@@ -169,24 +169,29 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.services]
     enable = true
     title = "Què pots fer tu?"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Tu ens pots ajudar a fer molt més"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
+      title = "Difusió dels nostres projectes"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
+      title = "Participació en les nostres reunions"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-layers2"
     [[params.services.item]]
-      title = "Photo &amp; Video"
+      title = "Participació en les nostres activitats"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
+      title = "Fes un donatiu"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-monitor"
+      
+      [[params.services.item]]
+      title = "Fes-te soci"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-monitor"
 
