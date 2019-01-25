@@ -236,7 +236,34 @@
 		}
 	};
 
+	var activityAnimate = function() {
+		if ( $('#fh5co-activity').length > 0 ) {	
 
+			$('#fh5co-activity').waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+
+					setTimeout(function() {
+						$('#fh5co-activity .to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+	
 	var testimonialAnimate = function() {
 		var testimonial = $('#fh5co-testimonials');
 		if ( testimonial.length > 0 ) {	
@@ -352,6 +379,34 @@
 		}
 	};
 
+	var followAnimate = function() {
+		if ( $('#fh5co-follow').length > 0 ) {	
+
+			$('#fh5co-follow').waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+
+					setTimeout(function() {
+						$('#fh5co-follow .to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInRight animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 1000);
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
+	
 	var countersAnimate = function() {
 		var counters = $('#fh5co-counters');
 		if ( counters.length > 0 ) {	
@@ -461,9 +516,11 @@
 		homeAnimate();
 		introAnimate();
 		workAnimate();
+		activityAnimate();
 		testimonialAnimate();
 		servicesAnimate();
 		aboutAnimate();
+		followAnimate();
 		countersAnimate();
 		contactAnimate();
 		

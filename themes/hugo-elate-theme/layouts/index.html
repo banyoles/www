@@ -12,14 +12,14 @@
 
     		{{ partial "hero.html" .}}
     
-    		{{ if .Site.Params.intro.enable }}
-           		{{ partial "intro.html" .}}
-       	{{ end }}
-           	
     		{{ if .Site.Params.work.enable }}
            		{{ partial "work.html" .}}
        	{{ end }}
     
+    		{{ if .Site.Params.activity.enable }}
+           		{{ partial "activity.html" .}}
+       	{{ end }}
+       	
     		{{ if .Site.Params.testimonials.enable }}
             	{{ partial "testimonials.html" .}}
     		{{ end }}
@@ -27,11 +27,19 @@
     		{{ if .Site.Params.services.enable }}
             	{{ partial "services.html" .}}
     		{{ end }}
-    
+
+    		{{ if .Site.Params.intro.enable }}
+           		{{ partial "intro.html" .}}
+       	{{ end }}
+       	
     		{{ if .Site.Params.about.enable }}
             	{{ partial "about.html" .}}
     		{{ end }}
-    
+
+    		{{ if .Site.Params.follow.enable }}
+           		{{ partial "follow.html" .}}
+       	{{ end }}
+       	
     		{{ if .Site.Params.counters.enable }}
             	{{ partial "counters.html" .}}
         {{ end }}

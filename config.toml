@@ -17,11 +17,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Navigation
   [params.navigation]
     brand = "Banyoles Solidària"
-    home = "Qui som?"
-    intro = "Segueix-nos"
-    work = "Què fem?"
-    testimonials = "On treballem?"
+    intro = "Intro"
+    work = "On treballem?"        #  <- format Què fem
+    activity = "Què fem?"       #
+    testimonials = "Experiències"
     services = "Què pots fer tu?"
+    about = "Qui som?"
+    follow = "Segueix-nos"
     contact = "Contacta'ns"
 
     # You can add custom links before or after the default links
@@ -48,8 +50,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # Intro section (Secció seguexe'ns)
 # Available icons: http://simplelineicons.com/
   [params.intro]
-    enable = true
-    title = "Segueix-nos"
+    enable = false
+    title = "Intro"
     
     [[params.intro.item]]
       title = "Blog"
@@ -84,7 +86,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Work section
   [params.work]
     enable = true
-    title = "Què fem?"
+    title = "On treballem?"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
@@ -106,11 +108,36 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = "Project 3"
       subtitle = "Design"
 
+  # Activities section
+  [params.activity]
+    enable = true
+    title = "Què fem?"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.activity.row]]
+      img = "logo.png"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "[Far](dar) far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.activity.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.activity.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
 
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
+    title = "Experiències"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
@@ -131,13 +158,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "person3.jpg"
       alt = "Person3"
 
-
-
-
   # Services section
   [params.services]
-    enable = true
-    title = "Services"
+    enable = false
+    title = "Què pots fer tu?"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
@@ -162,7 +186,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Qui som?"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
@@ -171,11 +195,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
       alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+      #social = [
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
+      #  ["icon-linkedin", "#"]
+      #]
 
     [[params.about.item]]
       name = "Rob Smith"
@@ -201,43 +225,51 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-dribbble", "#"]
       ]
 
-  # # Counters section
-  # [params.counters]
-  #   enable = true
-  #   title = "Stats"
-  #   background = "full_image_1.jpg"
-  #
-  #   [[params.counters.item]]
-  #     description = "Finished projects"
-  #     icon = "icon-briefcase"
-  #     from = 0
-  #     to = 89
-  #     interval = 50
-  #     speed = 5000
-  #
-  #   [[params.counters.item]]
-  #     description = "Lines of code"
-  #     icon = "icon-code"
-  #     from = 0
-  #     to = 2343409
-  #     interval = 50
-  #     speed = 5000
-  #
-  #   [[params.counters.item]]
-  #     description = "Cups of coffee"
-  #     icon = "icon-cup"
-  #     from = 0
-  #     to = 1302
-  #     interval = 50
-  #     speed = 5000
-  #
-  #   [[params.counters.item]]
-  #     description = "Happy clients"
-  #     icon = "icon-people"
-  #     from = 0
-  #     to = 52
-  #     interval = 50
-  #     speed = 5000
+    [[params.about.item]]
+      name = "Larry Ben"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person3.jpg"
+      alt = "Person3"
+      #social = [
+      #  ["icon-twitter", "#"],
+      #  ["icon-facebook", "#"],
+      #  ["icon-dribbble", "#"]
+      #]
+
+  [params.follow]
+    enable = true
+    title = "Segueix-nos"
+    
+    [[params.follow.item]]
+      title = "Blog"
+      description = "En el blog trobaràs la nostra activitat quotidiana relacionada amb els projectes de desenvolupament i també la nostra implicació en el món que ens envolta."
+      url = "http://banyolessolidaria.blogspot.com/"
+      button = "Segueix-nos"
+      icon = "icon-feed"
+      img = "img_7.jpg"
+
+    [[params.follow.item]]
+      title = "Facebook"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      url = "https://ca-es.facebook.com/banyoles.solidaria"
+      button = "Segueix-nos"
+      icon = "icon-facebook"
+      img = "img_8.jpg"
+
+    [[params.follow.item]]
+      title = "Twitter"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      url = "https://twitter.com/BanyolesE"
+      button = "Segueix-nos"
+      icon = "icon-twitter"
+      img = "img_10.jpg"
+
+    [params.follow.video]
+      enable = false
+      title = "Watch the video"
+      icon = "icon-play2"
+      url = "https://vimeo.com/channels/staffpicks/93951774"
 
   # Contact section
   [params.contact]
