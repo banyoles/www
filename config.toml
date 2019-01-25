@@ -53,9 +53,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     
     [[params.intro.item]]
       title = "Blog"
-      description = "Banyoles solidaria. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      description = "En el blog trobaràs la nostra activitat quotidiana relacionada amb els projectes de desenvolupament i també la nostra implicació en el món que ens envolta."
       url = "http://banyolessolidaria.blogspot.com/"
-      button = "Segueixe'ns"
+      button = "Segueix-nos"
       icon = "icon-feed"
       img = "img_7.jpg"
 
@@ -63,7 +63,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = "Facebook"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
       url = "https://ca-es.facebook.com/banyoles.solidaria"
-      button = "Segueixe'ns"
+      button = "Segueix-nos"
       icon = "icon-facebook"
       img = "img_8.jpg"
 
@@ -71,7 +71,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = "Twitter"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
       url = "https://twitter.com/BanyolesE"
-      button = "Segueixe'ns"
+      button = "Segueix-nos"
       icon = "icon-twitter"
       img = "img_10.jpg"
 
@@ -106,7 +106,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = "Project 3"
       subtitle = "Design"
 
-      
 
   # Testimonials section
   [params.testimonials]
