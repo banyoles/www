@@ -98,20 +98,20 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.work.row]]
       img = "logo.png"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "[Far](dar) far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
+      title = "El Salvador"
+      subtitle = "Segundo Montes"
+      
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = "Nicaragua"
+      subtitle = "Condega"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = "Gàmbia"
+      subtitle = "Kerewan-Nyakoy i Share Yewto"
 
   # Activities section
   [params.activity]
