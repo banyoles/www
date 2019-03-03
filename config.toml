@@ -204,7 +204,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = "Martí Jutglar"
       position = "President"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
       alt = "Person1"
       #social = [
@@ -228,7 +227,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = "Ramon Caralt"
       position = "Tresorer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Enginyer jubilat. Implicat en temes ecològics i solidaris"
       img = "person3.jpg"
       alt = "Person3"
       social = [
@@ -238,9 +237,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Carme Gubert"
+      position = "Vocal"
+      description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor"
       img = "person3.jpg"
       alt = "Person3"
       #social = [
