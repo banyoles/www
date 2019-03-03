@@ -19,7 +19,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     brand = "Banyoles Solidària"
     intro = "Intro"
     work = "Projectes internacionals"        #  <- format Què fem
-    activity = "Projectes locals?"       #
+    activity = "Projectes locals"       #
     testimonials = "Experiències"
     services = "Què pots fer tu?"
     about = "Qui som?"
@@ -93,8 +93,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Work section
   [params.work]
     enable = true
-    title = "On treballem?"
-    description = "Els nostres projectes internacionals"
+    title = "Els nostres projectes internacionals"
+    description = "Hi tenim projectes en marxa. Exactament,  a Condega (Nicaragua), Segundo Montes (El Salvador) i Kerewan (Gàmbia), en diferents camps de la cooperació: Educatius: construccions d’escoles, beques escolars i donació de material escolar i esportiu.Desenvolupament agrari: microcrèdits, donació de maquinària, regadius, molins fariners, dipòsits per al gra, donació d’adobs i llavors...Serveis socials: Atenció a nens de carrer, transport comunitari, apadrinament de nens discapacitats i avis desemparats, ajuda d’emergència...Atenció sanitària: Construcció i dotació d’un dispensari, tramesa de medicaments, formació de personal sanitari."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
