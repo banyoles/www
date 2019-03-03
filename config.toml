@@ -177,22 +177,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Participació en les nostres reunions"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Participa en les nostres reunions"
+      description = "Cada 2n i 4t dimarts de cada mes, de 8 a 2/4 de 10 del vespre, ens reunim al Centre Cívic de Banyoles, carrer Barcelona 54, al barri de la Farga."
       icon = "icon-layers2"
     [[params.services.item]]
-      title = "Participació en les nostres activitats"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Fes-te persona voluntària"
+      description = "Participa en les nostres activitats. Durant l’any fem algunes activitats de denúncia,  de sensibilització o per recaptar fons i qualsevol ajuda de tota mena hi serà benvinguda! També és molt important que ens ajudis a fer difusió d’aquests actes."
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "Fes un donatiu"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Apadrina"
+      description = "Tens l´oportunitat de ser padrí d'un infant amb alguna discapacitat. També pots esdevenir una gran ajuda per pagar els estudis dels joves dels pobles germans."
       icon = "icon-monitor"
       
       [[params.services.item]]
       title = "Fes-te soci"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Si no tens temps però sents propera la tasca que anem desenvolupant, pots fer aportacions econòmiques amb la modalitat que et sigui més còmoda: una aportació mensual, trimestral o anual. O puntual. Rebràs el certificat de la teva donació per presentar juntament amb la declaració de renda."
       icon = "icon-monitor"
 
   # About section
