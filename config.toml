@@ -218,11 +218,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       description = "Professor jubilat, enamorat de l’Estany i ciutadà d'un món que voldria sense fronteres !!"
       img = "person2.jpg"
       alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+     
 
     [[params.about.item]]
       name = "Ramon Caralt"
@@ -230,11 +226,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       description = "Enginyer jubilat. Implicat en temes ecològics i solidaris"
       img = "person3.jpg"
       alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
+     
 
     [[params.about.item]]
       name = "Carme Gubert"
@@ -242,11 +234,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor"
       img = "person3.jpg"
       alt = "Person3"
-      #social = [
-      #  ["icon-twitter", "#"],
-      #  ["icon-facebook", "#"],
-      #  ["icon-dribbble", "#"]
-      #]
+      
 
   [params.follow]
     enable = false
