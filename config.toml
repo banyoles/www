@@ -235,7 +235,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "person3.jpg"
       alt = "Person3"
       
-
+    [[params.about.item]]
+      name = "Marta Casanovas"
+      position = "Vocal"
+      description = "Sector turístic. Jubilada. Crec que, fent un petit esforç aquí, podem ajudar molt els pobles germans."
+      img = "person3.jpg"
+      alt = "Person3"
   [params.follow]
     enable = false
     title = "Segueix-nos"
