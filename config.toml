@@ -199,8 +199,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   [params.about]
     enable = true
     title = "Qui som?"
-    description = "BANYOLES SOLIDÀRIA és una ONG que, des de 1994, treballa i potencia la solidaritat entre les persones, pobles i cultures.Som un grup de gent diversa i ideològicament plural, que no es conforma a sentir parlar de la pobresa dels pobles del Sud, sinó que actua per a combatre-la.""
-    Pretenem impulsar la cooperació solidària amb els països del Sud, fomentar els agermanaments de la comarca amb Condega, la Comunidad Segundo Montes i Kerewan, col·laborar en actuacions humanitàries i d’emergència i sensibilitzar la població dels problemes de la pobresa"
+    description = "BANYOLES SOLIDÀRIA és una ONG que, des de 1994, treballa i potencia la solidaritat entre les persones, pobles i cultures.Som un grup de gent diversa i ideològicament plural, que no es conforma a sentir parlar de la pobresa dels pobles del Sud, sinó que actua per a combatre-la. Pretenem impulsar la cooperació solidària amb els països del Sud, fomentar els agermanaments de la comarca amb Condega, la Comunidad Segundo Montes i Kerewan, col·laborar en actuacions humanitàries i d’emergència i sensibilitzar la població dels problemes de la pobresa"
     
     [[params.about.item]]
       name = "Martí Jutglar"
