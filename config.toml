@@ -216,7 +216,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = "Àlex Garcia"
       position = "Secretari"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Professor jubilat, enamorat de l’Estany i ciutadà d'un món que voldria sense fronteres !!"
       img = "person2.jpg"
       alt = "Person2"
       social = [
