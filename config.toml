@@ -125,19 +125,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.activity.row]]
       img = "logo.png"
       alt = "Image2"
-      title = "Project 1"
+      title = "Activitats de denúncia i sensibilització"
       subtitle = "[Far](dar) far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.activity.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
+      title = "Activitats per donar a conèixer Banyoles Solidària i recaptar fons"
       subtitle = "Design"
 
     [[params.activity.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
+      title = "Activitats de denúncia i sensibilització amb altres entitats del Pla de l’Estany"
       subtitle = "Design"
 
 
