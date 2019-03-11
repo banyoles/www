@@ -172,11 +172,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Tu ens pots ajudar a fer molt més"
 
     [[params.services.item]]
-      title = "Difusió dels nostres projectes"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
       title = "Participa en les nostres reunions"
       description = "Cada 2n i 4t dimarts de cada mes, de 8 a 2/4 de 10 del vespre, ens reunim al Centre Cívic de Banyoles, carrer Barcelona 54, al barri de la Farga."
       icon = "icon-layers2"
@@ -295,8 +290,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     enable = true
     map = false
     form = true
-    title = "Contacta"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contacta amb nosaltres"
+    description = "Estarem molt contents de contestar-te quan et posis en contacte amb nosaltres a través del correu o d’aquesta mateixa pàgina. Mirarem de solucionar-te les teves demandes."
 
     # Available icons: http://simplelineicons.com/
     details = [
