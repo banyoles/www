@@ -110,10 +110,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       subtitle = "Condega"
 
     [[params.work.row]]
-      img = "work_3.jpg"
+      img = "gambia.jpg"
       alt = "Image3"
       title = "Gàmbia"
-      subtitle = "Des de l’any 94 col·laborem amb un poble del centre de Gàmbia anomenat Kerewan. A l’any 2018, a instàncies de l’Ajuntament de Banyoles hem ampliat la nostra actuació a un nou poble, també a l’interior del país, anomenat Sare Yewtou.Treballem sobretot en desenvolupament rural, principalment en la millora de la collita per propiciar la millora en l’alimentació""
+      subtitle = "Des de l’any 94 col·laborem amb un poble del centre de Gàmbia anomenat Kerewan. A l’any 2018, a instàncies de l’Ajuntament de Banyoles hem ampliat la nostra actuació a un nou poble, també a l’interior del país, anomenat Sare Yewtou.Treballem sobretot en desenvolupament rural, principalment en la millora de la collita per propiciar la millora en l’alimentació."
 
 
   # Activities section
