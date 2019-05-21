@@ -11,7 +11,31 @@
 				</div>
 			</div>
 			<div class="row">
+			{{ $.Scratch.Set "counter" 0 }}
 			{{ range .Site.Params.about.item }}
+			  {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
+						<h3>{{ .name | markdownify }} </h3>
+						<span class="fh5co-position">{{ .position | markdownify }}</span>
+						<p>{{ .description | markdownify }}</p>
+						<ul class="social social-circle">
+						{{ range .social }}
+							<li><a href="{{ index . 1 }}"><i class="{{ index .  0 }}"></i></a></li>
+						{{ end }}
+						</ul>
+					</div>
+				</div>
+			{{ if eq ( mod ($.Scratch.Get "counter") 3 ) 0 }}
+			</div>		
+			<div class="row">			
+			{{ end }}
+			{{ end }}
+			</div>		
+			<!--
+			<div class="row">
+			{{ range .Site.Params.about.row2 }}
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
@@ -27,5 +51,23 @@
 				</div>
 			{{ end }}
 			</div>
+			<div class="row">
+			{{ range .Site.Params.about.row3 }}
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
+						<h3>{{ .name | markdownify }}</h3>
+						<span class="fh5co-position">{{ .position | markdownify }}</span>
+						<p>{{ .description | markdownify }}</p>
+						<ul class="social social-circle">
+						{{ range .social }}
+							<li><a href="{{ index . 1 }}"><i class="{{ index .  0 }}"></i></a></li>
+						{{ end }}
+						</ul>
+					</div>
+				</div>
+			{{ end }}
+			</div>			
+			-->
 		</div>
 	</section>

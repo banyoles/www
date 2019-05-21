@@ -1,6 +1,5 @@
     <header role="banner" id="fh5co-header">
         <div class="container">
-            <!-- <div class="row"> -->
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button -->
@@ -20,28 +19,16 @@
                     <li><a href="#" data-nav-section="intro"><span>{{ with .Site.Params.navigation.intro }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
                     
-                    {{ if .Site.Params.work.enable }}
-                    <li><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li> 
+                    {{ if .Site.Params.about.enable }}
+                    <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
                     
                     {{ if .Site.Params.activity.enable }}
                     <li><a href="#" data-nav-section="activity"><span>{{ with .Site.Params.navigation.activity }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
-                    
-                    {{ if .Site.Params.testimonials.enable }}
-                    <li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li> 
-                    {{ end }}
 
                     {{ if .Site.Params.services.enable }}
                     <li><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li> 
-                    {{ end }}
-
-                    {{ if .Site.Params.about.enable }}
-                    <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li> 
-                    {{ end }}
-                    
-                    {{ if .Site.Params.follow.enable }}
-                    <li><a href="#" data-nav-section="follow"><span>{{ with .Site.Params.navigation.follow }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
                     
                     {{ if .Site.Params.contact.enable }}
@@ -58,6 +45,5 @@
                 </ul>
             </div>
         </nav>
-        <!-- </div> -->
     </div>
 </header>
