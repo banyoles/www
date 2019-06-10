@@ -34,7 +34,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Icones disponibles https://docdock.netlify.com/shortcodes/icon/
   # Secció inicial
   [params.hero]
-    title = '![Banyoles Solidària](images/logo_ovalat_2.png)<br/>ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT</br>(Web en construcció)'
+    title = '![Banyoles Solidària](images/logo_ovalat_25anys.png)<br/>ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT</br>(Web en construcció)'
     Subtitle = 'Molta gent petita, en llocs petits, fent petites coses, poden canviar el món <br />*Eduardo Galeano (1940-2015)*'
 
 
@@ -59,7 +59,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       name = "Àlex Garcia"
       position = "Secretari"
       description = "Professor jubilat, enamorat de l’Estany i ciutadà d'un món que voldria sense fronteres !!"
-      img = "person2.jpg"
+      img = "people/Alex García.JPG"
       alt = "Person2"
      
 
@@ -67,7 +67,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       name = "Ramon Caralt"
       position = "Tresorer"
       description = "Enginyer jubilat. Implicat en temes ecològics i solidaris"
-      img = "person3.jpg"
+      img = "people/Ramon Caralt.jpg"
       alt = "Person3"
      
 
@@ -75,30 +75,84 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       name = "Carme Gubert"
       position = "Vocal"
       description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor"
-      img = "person3.jpg"
+      img = "people/Carme Gubert.jpg"
       alt = "Person3"
       
     [[params.about.item]]
       name = "Marta Casanovas"
       position = "Vocal"
       description = "Sector turístic. Jubilada. Crec que, fent un petit esforç aquí, podem ajudar molt els pobles germans."
-      img = "person3.jpg"
+      img = "people/Marta Casanovas.jpg"
       alt = "Person3"
       
       [[params.about.item]]
       name = "Lola Torrent"
       position = "Vocal"
       description = "Interessada per la natura, per la cultura, pel món en general. Totes les persones anem al mateix vaixell, però no sembla que ens en fem càrrec. Temps d'arremangar-se!"
-      img = "person3.jpg"
+      img = "people/Lola Torrent.jpg"
       alt = "Person3"
   
      [[params.about.item]]
       name = "Anna Lietz"
       position = "Vocal"
       description = "Actuo amb solidaritat perquè veig moltes injustícies al món.  Estic agraïda que no he de lluitar per sobreviure"
+      img = "people/Ana Lietz.jpg"
+      alt = "Person3"
+      
+     [[params.about.item]]
+      name = "Wolfram Lietz"
+      position = "Vocal"
+      description = "Tots som veïns"
+      img = "people/Wolf Lietz.jpg"
+      alt = "Person3"
+      
+     [[params.about.item]]
+      name = "Maria Garcia"
+      position = "Vocal"
+      description = ""
+      img = "people/mgarcia.jpg"
+      alt = "Person3"
+      
+      
+     [[params.about.item]]
+      name = "Miquel Miras"
+      position = "Vocal"
+      description = ""
       img = "person3.jpg"
       alt = "Person3"
-
+      
+      
+     [[params.about.item]]
+      name = "Maran Gri Maureta"
+      position = "Vocal"
+      description = ""
+      img = "person3.jpg"
+      alt = "Person3"
+      
+      
+     [[params.about.item]]
+      name = "Josep Callís i Franco"
+      position = "Vocal"
+      description = ""
+      img = "person3.jpg"
+      alt = "Person3"
+      
+      
+     [[params.about.item]]
+      name = "Adam Pinsach Boix"
+      position = "Vocal"
+      description = ""
+      img = "person3.jpg"
+      alt = "Person3"
+      
+      
+     [[params.about.item]]
+      name = "Francisca Espinosa Casanova"
+      position = "Vocal"
+      description = ""
+      img = "person3.jpg"
+      alt = "Person3"
+      
   # Activities section
   [params.activity]
     enable = true
@@ -113,19 +167,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Hi tenim projectes en marxa. Exactament,  a Condega (Nicaragua), Segundo Montes (El Salvador) i Kerewan (Gàmbia), en diferents camps de la cooperació: Educatius: construccions d’escoles, beques escolars i donació de material escolar i esportiu.Desenvolupament agrari: microcrèdits, donació de maquinària, regadius, molins fariners, dipòsits per al gra, donació d’adobs i llavors...Serveis socials: Atenció a nens de carrer, transport comunitari, apadrinament de nens discapacitats i avis desemparats, ajuda d’emergència...Atenció sanitària: Construcció i dotació d’un dispensari, tramesa de medicaments, formació de personal sanitari."
 
     [[params.international.row]]
-      img = "logo.png"
+      img = "mapa_el_salvador.jpg"
       alt = "Image2"
       title = "El Salvador"
       subtitle = "Segundo Montes"
       
     [[params.international.row]]
-      img = "work_2.jpg"
+      img = "mapa_nicaragua.jpg"
       alt = "Image2"
       title = "Nicaragua"
       subtitle = "Condega"
 
     [[params.international.row]]
-      img = "gambia.jpg"
+      img = "mapa_gambia.jpg"
       alt = "Image3"
       title = "Gàmbia"
       subtitle = "Des de l’any 94 col·laborem amb un poble del centre de Gàmbia anomenat Kerewan. A l’any 2018, a instàncies de l’Ajuntament de Banyoles hem ampliat la nostra actuació a un nou poble, també a l’interior del país, anomenat Sare Yewtou.Treballem sobretot en desenvolupament rural, principalment en la millora de la collita per propiciar la millora en l’alimentació."
@@ -163,6 +217,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       title = "Participa en les nostres reunions"
       description = "Cada 2n i 4t dimarts de cada mes, de 8 a 2/4 de 10 del vespre, ens reunim al Centre Cívic de Banyoles, carrer Barcelona 54, al barri de la Farga."
       icon = "icon-layers2"
+      
     [[params.services.item]]
       title = "Fes-te persona voluntària"
       description = "Participa en les nostres activitats. Durant l’any fem algunes activitats de denúncia,  de sensibilització o per recaptar fons i qualsevol ajuda de tota mena hi serà benvinguda! També és molt important que ens ajudis a fer difusió d’aquests actes."
