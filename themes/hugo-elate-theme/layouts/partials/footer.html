@@ -8,12 +8,20 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<ul class="social social-circle">
+				  {{ range .Site.Params.footer.collaborators }}
+              <img src="images/ajuntaments/{{ . }}" width="150px">
+          {{ end }}
+					<!--<ul class="social social-circle">
 					{{ range .Site.Params.footer.links }}
 						<li><a href="{{ with index . 1}}{{ . }}{{ end }}"><i class="{{ with index . 0}}{{ . }}{{ end }}"></i></a></li>
 					{{ end }}
-					</ul>
+					</ul>-->
 				</div>
 			</div>
 		</div>
 	</footer>
+<!--
+<center>
+		  
+</center>
+-->

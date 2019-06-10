@@ -43,6 +43,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     enable = true
     title = "Qui som?"
     description = "BANYOLES SOLIDÀRIA és una ONG que, des de 1994, treballa i potencia la solidaritat entre les persones, pobles i cultures.Som un grup de gent diversa i ideològicament plural, que no es conforma a sentir parlar de la pobresa dels pobles del Sud, sinó que actua per a combatre-la. Pretenem impulsar la cooperació solidària amb els països del Sud, fomentar els agermanaments de la comarca amb Condega, la Comunidad Segundo Montes i Kerewan, col·laborar en actuacions humanitàries i d’emergència i sensibilitzar la població dels problemes de la pobresa"
+    collaborators = [
+    "banyoles_200_150.jpg", 
+    "camos_200_150.jpg",
+    "cornella_terri_200_150.jpg",
+    "foncoberta_200_150.jpg",
+    "palol_revardit_200_150.jpg",
+    "porqueres_200_150.jpg",
+    "serinya_200_150.jpg" ]
     
     [[params.about.item]]
       name = "Martí Jutglar"
@@ -152,7 +160,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       description = ""
       img = "person3.jpg"
       alt = "Person3"
-      
+
+     
   # Activities section
   [params.activity]
     enable = true
@@ -289,10 +298,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     message = "Missatge"
     button = "Enviar missatge"
 
-  # # Footer section
-  # [params.footer]
-  #   enable = true
-  #   copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
-  #   links = [
-  #       ["icon-facebook", "https://ca-es.facebook.com/banyoles.solidaria"]
-  #     ]
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = 'Col·laboradors:'
+    collaborators = [
+    "banyoles_200_150.jpg", 
+    "camos_200_150.jpg",
+    "cornella_terri_200_150.jpg",
+    "foncoberta_200_150.jpg",
+    "palol_revardit_200_150.jpg",
+    "porqueres_200_150.jpg",
+    "serinya_200_150.jpg" ]
+    #links = [
+    #    ["icon-facebook", "https://ca-es.facebook.com/banyoles.solidaria"]
+    #  ]
