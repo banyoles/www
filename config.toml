@@ -43,14 +43,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     enable = true
     title = "Qui som?"
     description = "BANYOLES SOLIDÀRIA és una ONG que, des de 1994, treballa i potencia la solidaritat entre les persones, pobles i cultures.Som un grup de gent diversa i ideològicament plural, que no es conforma a sentir parlar de la pobresa dels pobles del Sud, sinó que actua per a combatre-la. Pretenem impulsar la cooperació solidària amb els països del Sud, fomentar els agermanaments de la comarca amb Condega, la Comunidad Segundo Montes i Kerewan, col·laborar en actuacions humanitàries i d’emergència i sensibilitzar la població dels problemes de la pobresa"
-    collaborators = [
-    "banyoles_200_150.jpg", 
-    "camos_200_150.jpg",
-    "cornella_terri_200_150.jpg",
-    "foncoberta_200_150.jpg",
-    "palol_revardit_200_150.jpg",
-    "porqueres_200_150.jpg",
-    "serinya_200_150.jpg" ]
     
     [[params.about.item]]
       name = "Martí Jutglar"
@@ -225,22 +217,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.services.item]]
       title = "Participa en les nostres reunions"
       description = "Cada 2n i 4t dimarts de cada mes, de 8 a 2/4 de 10 del vespre, ens reunim al Centre Cívic de Banyoles, carrer Barcelona 54, al barri de la Farga."
-      icon = "icon-layers2"
+      icon = "icon-users"
       
     [[params.services.item]]
       title = "Fes-te persona voluntària"
       description = "Participa en les nostres activitats. Durant l’any fem algunes activitats de denúncia,  de sensibilització o per recaptar fons i qualsevol ajuda de tota mena hi serà benvinguda! També és molt important que ens ajudis a fer difusió d’aquests actes."
-      icon = "icon-video2"
+      icon = "icon-list-ul"
 
       [[params.services.item]]
       title = "Apadrina"
       description = "Tens l´oportunitat de ser padrí d'un infant amb alguna discapacitat. També pots esdevenir una gran ajuda per pagar els estudis dels joves dels pobles germans."
-      icon = "icon-monitor"
+      icon = "icon-link"
       
       [[params.services.item]]
       title = "Fes-te soci"
       description = "Si no tens temps però sents propera la tasca que anem desenvolupant, pots fer aportacions econòmiques amb la modalitat que et sigui més còmoda: una aportació mensual, trimestral o anual. O puntual. Rebràs el certificat de la teva donació per presentar juntament amb la declaració de renda."
-      icon = "icon-monitor"
+      icon = "icon-user-plus"
   
   [params.follow]
     enable = false
