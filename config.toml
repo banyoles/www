@@ -47,6 +47,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = "Martí Jutglar"
       position = "President"
+      description = "<br/><br/><br/>"
       img = "person1.jpg"
       alt = "Person1"
       #social = [
@@ -66,7 +67,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = "Ramon Caralt"
       position = "Tresorer"
-      description = "Enginyer jubilat. Implicat en temes ecològics i solidaris"
+      description = "Enginyer jubilat. Implicat en temes ecològics i solidaris<br/><br/>"
       img = "people/Ramon Caralt.jpg"
       alt = "Person3"
      
@@ -74,14 +75,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [[params.about.item]]
       name = "Carme Gubert"
       position = "Vocal"
-      description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor"
+      description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor<br/><br/><br/>"
       img = "people/Carme Gubert.jpg"
       alt = "Person3"
       
     [[params.about.item]]
       name = "Marta Casanovas"
       position = "Vocal"
-      description = "Sector turístic. Jubilada. Crec que, fent un petit esforç aquí, podem ajudar molt els pobles germans."
+      description = "Sector turístic. Jubilada. Crec que, fent un petit esforç aquí, podem ajudar molt els pobles germans.<br/><br/><br/>"
       img = "people/Marta Casanovas.jpg"
       alt = "Person3"
       
@@ -102,14 +103,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
      [[params.about.item]]
       name = "Wolfram Lietz"
       position = "Vocal"
-      description = "Tots som veïns"
+      description = "Tots som veïns<br/><br/><br/><br/>"
       img = "people/Wolf Lietz.jpg"
       alt = "Person3"
       
      [[params.about.item]]
       name = "Maria Garcia"
       position = "Vocal"
-      description = ""
+      description = "<br/><br/><br/><br/>"
       img = "people/mgarcia.jpg"
       alt = "Person3"
       
@@ -125,7 +126,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
      [[params.about.item]]
       name = "Maran Gri Maureta"
       position = "Vocal"
-      description = ""
+      description = " "
       img = "person3.jpg"
       alt = "Person3"
       
@@ -133,7 +134,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
      [[params.about.item]]
       name = "Josep Callís i Franco"
       position = "Vocal"
-      description = ""
+      description = " "
       img = "person3.jpg"
       alt = "Person3"
       
@@ -149,7 +150,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
      [[params.about.item]]
       name = "Francisca Espinosa Casanova"
       position = "Vocal"
-      description = ""
+      description = " "
       img = "person3.jpg"
       alt = "Person3"
 
