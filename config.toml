@@ -34,7 +34,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Icones disponibles https://docdock.netlify.com/shortcodes/icon/
   # Secció inicial
   [params.hero]
-    title = '![Banyoles Solidària](images/logo_ovalat_25anys.png)<br/>ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT</br>(Web en construcció)'
+    title = '![Banyoles Solidària](images/logo_ovalat_25anys.png)<br/>ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT</br>'
     Subtitle = 'Molta gent petita, en llocs petits, fent petites coses, poden canviar el món <br />*Eduardo Galeano (1940-2015)*'
 
 
