@@ -29,7 +29,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         ["icon-feed", "http://banyolessolidaria.blogspot.com/"],
         ["icon-twitter", "https://twitter.com/BanyolesE"],
         ["icon-facebook", "https://ca-es.facebook.com/banyoles.solidaria"],
-        ["icon-notebook", "http://butlleti"]
+        ["icon-notebook", "https://drive.google.com/file/d/0Byanl5FeJxT2Y0taNVNkaFlhQ2U3VUFHVm9acXExVVp4Q21n/view"]
       ]
   # Icones disponibles https://docdock.netlify.com/shortcodes/icon/
   # Secció inicial
@@ -172,13 +172,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "mapa_el_salvador.jpg"
       alt = "Image2"
       title = "El Salvador"
-      subtitle = "Segundo Montes"
+      subtitle = "Treballem en el departament de Morazán (el més pobre del país), a Meanguera, i a diversos municipis del Nord de Morazán i, especialment, a la comunitat Segundo Montes, creada el 1990 per refugiats repratiats, un cop acabada la cruenta guerra civil salvadorenca. Treballem en projectes educatius, agrícoles i d'empoderament de les dones."
       
     [[params.international.row]]
       img = "mapa_nicaragua.jpg"
       alt = "Image2"
       title = "Nicaragua"
-      subtitle = "Condega"
+      subtitle = "Condega, municipi al nord del país, d'uns 30.000 habitants, té un nucli urbà i unes 66 comunitats rurals, on la població treballa al camp com a petits propietaris o jornalers. Hi predomina la població jove, que no troba feina qualificada. Els projectes que portem a terme són de caire educatiu, d'empoderament d'adolescents i de desenvolupament cooperatiu."
 
     [[params.international.row]]
       img = "mapa_gambia.jpg"
@@ -192,19 +192,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     description = "Les nostres activitats locals arriben ben lluny i connecten amb els nostres projectes internacionals."
 
    [[params.local.row]]
-      img = "logo.png"
+      img = "act_denuncia.jpg"
       alt = "Image2"
       title = "Activitats de denúncia i sensibilització"
       subtitle = "Xerrades, exposicions, documentals..."
 
     [[params.local.row]]
-      img = "work_2.jpg"
+      img = "act_recaptar.jpg"
       alt = "Image2"
       title = "Activitats per donar a conèixer Banyoles Solidària i recaptar fons"
       subtitle = "Parades d’artesania, rifes, festes, concerts..."
 
     [[params.local.row]]
-      img = "work_3.jpg"
+      img = "act_denuncia_local.jpg"
       alt = "Image3"
       title = "Activitats de denúncia i sensibilització amb altres entitats del Pla de l’Estany"
       subtitle = "Comerç responsable, ecologia, apoderament de la dona, suport als refugiats. "
