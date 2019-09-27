@@ -1,6 +1,9 @@
 ---
 title: "Activitats de denúncia i sensibilització amb altres entitats del Pla de l’Estany"
 url: /activity03
+output: 
+  html_document: 
+    theme: cerulean
 ---
 
 Comerç responsable, ecologia, apoderament de la dona, suport als refugiats. 

@@ -1,6 +1,9 @@
 ---
 title: "Activitats per donar a conèixer Banyoles Solidària i recaptar fons."
 url: /activity02
+output: 
+  html_document: 
+    theme: cerulean
 ---
 
 Parades d’artesania, rifes, festes, concerts...

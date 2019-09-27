@@ -1,6 +1,9 @@
 ---
 title: "Activitats de denúncia i sensibilització."
 url: /activity01
+output: 
+  html_document: 
+    theme: cerulean
 ---
 
 * Xerrada sobre Les Colònies Tèxtils per l’Assumpta Montellà. 2018

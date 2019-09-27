@@ -1,6 +1,9 @@
 ---
 title: "El Salvador"
 url: /nicaragua
+output: 
+  html_document: 
+    theme: cerulean
 ---
 
 # Beques per a estudiant universitaris

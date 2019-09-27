@@ -1,6 +1,9 @@
 ---
 title: "La nostra cooperació a Gàmbia"
 url: /gambia
+output: 
+  html_document: 
+    theme: cerulean
 ---
 
 # Una mica d'història

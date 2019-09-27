@@ -1,6 +1,9 @@
 ---
 title: "El Salvador"
 url: /salvador
+output: 
+  html_document: 
+    theme: cerulean
 ---
 
 La cooperació de Banyoles Solidària a El Salvador es fa en el departament de Morazán, el més pobre del país i on en la seva guerra civil (1979-1992) hi hagué la màxima violència contra la seva població camperola i indígena. Els projectes es desenvolupen a través del SILEM, organisme popular que actua de contrapart.
