@@ -48,7 +48,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       name = "Martí Jutglar"
       position = "President"
       description = "<br/><br/><br/>"
-      img = "person1.jpg"
+      img = "people/Martí Jutglar.jpg"
       alt = "Person1"
       #social = [
       #  ["icon-twitter", "#"],
@@ -92,7 +92,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       description = "Interessada per la natura, per la cultura, pel món en general. Totes les persones anem al mateix vaixell, però no sembla que ens en fem càrrec. Temps d'arremangar-se!"
       img = "people/Lola Torrent.jpg"
       alt = "Person3"
-  
+
+      [[params.about.item]]
+      name = "Dolors Terradas"
+      position = "Vocal"
+      description = ""
+      img = "people/Dolors Terradas.jpg"
+      alt = "Person3"
+      
      [[params.about.item]]
       name = "Anna Lietz"
       position = "Vocal"
@@ -172,18 +179,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
       img = "mapa_el_salvador.jpg"
       alt = "Image2"
       title = "El Salvador"
+      doc = "salvador"
       subtitle = "Treballem en el departament de Morazán (el més pobre del país), a Meanguera, i a diversos municipis del Nord de Morazán i, especialment, a la comunitat Segundo Montes, creada el 1990 per refugiats repratiats, un cop acabada la cruenta guerra civil salvadorenca. Treballem en projectes educatius, agrícoles i d'empoderament de les dones."
       
     [[params.international.row]]
       img = "mapa_nicaragua.jpg"
       alt = "Image2"
       title = "Nicaragua"
+      doc = "nicaragua"
       subtitle = "Condega, municipi al nord del país, d'uns 30.000 habitants, té un nucli urbà i unes 66 comunitats rurals, on la població treballa al camp com a petits propietaris o jornalers. Hi predomina la població jove, que no troba feina qualificada. Els projectes que portem a terme són de caire educatiu, d'empoderament d'adolescents i de desenvolupament cooperatiu."
 
     [[params.international.row]]
       img = "mapa_gambia.jpg"
       alt = "Image3"
       title = "Gàmbia"
+      doc  = "gambia"
       subtitle = "Des de l’any 94 col·laborem amb un poble del centre de Gàmbia anomenat Kerewan. A l’any 2018, a instàncies de l’Ajuntament de Banyoles hem ampliat la nostra actuació a un nou poble, també a l’interior del país, anomenat Sare Yewtou.Treballem sobretot en desenvolupament rural, principalment en la millora de la collita per propiciar la millora en l’alimentació."
     
   # who section: qui som?
@@ -194,18 +204,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
    [[params.local.row]]
       img = "act_denuncia.jpg"
       alt = "Image2"
+      doc = "activity01"
       title = "Activitats de denúncia i sensibilització"
       subtitle = "Xerrades, exposicions, documentals..."
 
     [[params.local.row]]
       img = "act_recaptar.jpg"
       alt = "Image2"
+      doc = "activity02"      
       title = "Activitats per donar a conèixer Banyoles Solidària i recaptar fons"
       subtitle = "Parades d’artesania, rifes, festes, concerts..."
 
     [[params.local.row]]
       img = "act_denuncia_local.jpg"
       alt = "Image3"
+      doc = "activity03"      
       title = "Activitats de denúncia i sensibilització amb altres entitats del Pla de l’Estany"
       subtitle = "Comerç responsable, ecologia, apoderament de la dona, suport als refugiats. "
 
