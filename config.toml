@@ -5,6 +5,9 @@ languageCode = "ca-es"
 theme = "hugo-elate-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
 
   custom_css = ["css/custom1.css", "css/custom2.css"]
@@ -33,8 +36,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Icones disponibles https://docdock.netlify.com/shortcodes/icon/
   # Secció inicial
   [params.hero]
-    title = '![Banyoles Solidària](images/logo_ovalat_25anys.png)<br/>ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT</br>'
-    Subtitle = 'Molta gent petita, en llocs petits, fent petites coses, poden canviar el món <br />*Eduardo Galeano (1940-2015)*'
+    title = "![Banyoles Solidària](images/logo_ovalat_25anys.png)<br />ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT"
+    Subtitle = "Molta gent petita, en llocs petits, fent petites coses, poden canviar el món<br />*Eduardo Galeano (1940-2015)*"
 
 
 # About section
