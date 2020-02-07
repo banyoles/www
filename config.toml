@@ -36,10 +36,9 @@ unsafe= true
   # Icones disponibles https://docdock.netlify.com/shortcodes/icon/
   # Secció inicial
   [params.hero]
-    title = "![Banyoles Solidària](images/logo_ovalat_25anys.png)<br />ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT"
+    title = "![Banyoles Solidària](images/logo_ovalat.png)<br />ORGANITZACIÓ NO GOVERNAMENTAL PER AL DESENVOLUPAMENT"
     Subtitle = "Molta gent petita, en llocs petits, fent petites coses, poden canviar el món<br />*Eduardo Galeano (1940-2015)*"
-
-
+	
 # About section
   [params.about]
     enable = true
@@ -58,14 +57,15 @@ unsafe= true
       #  ["icon-linkedin", "#"]
       #]
 
-    [[params.about.item]]
-      name = "Àlex Garcia"
-      position = "Secretari"
-      description = "Professor jubilat, enamorat de l’Estany i ciutadà d'un món que voldria sense fronteres !!"
-      img = "people/Alex García.JPG"
-      alt = "Person2"
+    
      
-
+	[[params.about.item]]
+      name = "Carme Gubert"
+      position = "Vocal"
+      description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor<br/><br/><br/>"
+      img = "people/Carme Gubert.jpg"
+      alt = "Person3"
+      
     [[params.about.item]]
       name = "Ramon Caralt"
       position = "Tresorer"
@@ -73,14 +73,13 @@ unsafe= true
       img = "people/Ramon Caralt.jpg"
       alt = "Person3"
      
-
-    [[params.about.item]]
-      name = "Carme Gubert"
-      position = "Vocal"
-      description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor<br/><br/><br/>"
-      img = "people/Carme Gubert.jpg"
-      alt = "Person3"
-      
+	[[params.about.item]]
+      name = "Àlex Garcia"
+      position = "Secretari"
+      description = "Professor jubilat, enamorat de l’Estany i ciutadà d'un món que voldria sense fronteres !!"
+      img = "people/Alex García.JPG"
+      alt = "Person2"
+    
     [[params.about.item]]
       name = "Marta Casanovas"
       position = "Vocal"
@@ -154,7 +153,7 @@ unsafe= true
       description = ""
       img = "person3.jpg"
       alt = "Person3"
-      
+	  
       
      [[params.about.item]]
       name = "Francisca Espinosa Casanova"
