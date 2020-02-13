@@ -61,7 +61,7 @@ unsafe= true
      
 	[[params.about.item]]
       name = "Carme Gubert"
-      position = "Vocal"
+      position = "Secretària"
       description = "Mare, mestra i militant de causes perdudes. Crec en les persones i espero un futur millor<br/><br/><br/>"
       img = "people/Carme Gubert.jpg"
       alt = "Person3"
@@ -75,7 +75,7 @@ unsafe= true
      
 	[[params.about.item]]
       name = "Àlex Garcia"
-      position = "Secretari"
+      position = "Vocal"
       description = "Professor jubilat, enamorat de l’Estany i ciutadà d'un món que voldria sense fronteres !!"
       img = "people/Alex García.JPG"
       alt = "Person2"
@@ -135,7 +135,7 @@ unsafe= true
       name = "Maran Gri Maureta"
       position = "Vocal"
       description = " "
-      img = "person3.jpg"
+      img = "Maran Gri.jpg"
       alt = "Person3"
       
       
@@ -145,24 +145,7 @@ unsafe= true
       description = " "
       img = "person3.jpg"
       alt = "Person3"
-      
-      
-     [[params.about.item]]
-      name = "Adam Pinsach Boix"
-      position = "Vocal"
-      description = ""
-      img = "person3.jpg"
-      alt = "Person3"
 	  
-      
-     [[params.about.item]]
-      name = "Francisca Espinosa Casanova"
-      position = "Vocal"
-      description = " "
-      img = "person3.jpg"
-      alt = "Person3"
-
-     
   # Activities section
   [params.activity]
     enable = true
@@ -231,7 +214,7 @@ unsafe= true
 
     [[params.services.item]]
       title = "Participa en les nostres reunions"
-      description = "Cada 2n i 4t dimarts de cada mes, de 8 a 2/4 de 10 del vespre, ens reunim al Centre Cívic de Banyoles, carrer Barcelona 54, al barri de la Farga."
+      description = "Cada 1er i 3er dimarts de cada mes, de 8 a  2 ⁄ 4  de 9 del vespre, ens reunim al Centre Cívic de Banyoles, carrer Barcelona 54, al barri de la Farga."
       icon = "icon-users"
       
     [[params.services.item]]
@@ -305,6 +288,7 @@ unsafe= true
     message = "Missatge"
     button = "Enviar missatge"
 
+	
   # Footer section
   [params.footer]
     enable = true
@@ -320,3 +304,4 @@ unsafe= true
     #links = [
     #    ["icon-facebook", "https://ca-es.facebook.com/banyoles.solidaria"]
     #  ]
+	
