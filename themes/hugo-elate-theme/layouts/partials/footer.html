@@ -18,6 +18,11 @@
 					</ul>-->
 				</div>
 			</div>
+			<div class="col-md-12 section-heading text-center">
+					<p>{{ with .Site.Params.footer.privacity }}{{ . | markdownify }}{{ end }}</p>
+					<p>{{ with .Site.Params.footer.privacity2 }}{{ . | markdownify }}{{ end }}</p>
+			</div>
+			
 		</div>
 	</footer>
 <!--
