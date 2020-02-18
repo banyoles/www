@@ -295,13 +295,17 @@ unsafe= true
     copyright = 'Col·laboradors:'
 	
     collaborators = [
-    "banyoles_200_150.jpg", 
+    "Ajuntament Banyoles .jpg", 
     "camos_200_150.jpg",
     "cornella_terri_200_150.jpg",
     "foncoberta_200_150.jpg",
     "palol_revardit_200_150.jpg",
     "porqueres_200_150.jpg",
-    "serinya_200_150.jpg" ]
+    "serinya_200_150.jpg",
+	"Ajuntament Crespià.jpg",
+	"Ajuntament Sant Miquel de Campmajor.jpg",
+	"Ajuntament vilademuls.jpg",
+	"Ajuntaments Esponellà.jpg"]
 	privacity="<br><b>AVÍS DE PRIVACITAT DE L’ ASSOCIACIÓ BANYOLES SOLIDÀRIA</b>"
 	privacity2="La visita a la present web www.banyolessolidaria.org no suposa que l'usuari estigui obligat a facilitar cap informació personal. En el cas que l'usuari faciliti alguna informació de caràcter personal, les dades recollides en aquest portal web seran tractades de conformitat amb el Reglament (UE) 2016/679 del Parlament i del Consell de 27 d'Abril de 2016 (en endavant RGPD) i la Llei orgànica 3/2018, de 5 de desembre (en endavant LOPD-GDD). <br>De les dades facilitades pels usuaris en serà Responsable del Tractament l’ASSOCIACIÓ BANYOLES SOLIDÀRIA. En aquest sentit, hem realitzat i mantenim actualitzat el corresponent registre de tractament sobre les dades personals que vostè faciliti a la present web.Els usuaris que facilitin dades de caràcter personal, consenten de manera expressa i inequívocament al tractament de les seves dades per l’ASSOCIACIÓ BANYOLES SOLIDÀRIA, amb la finalitat de respondre a les preguntes que se'ns formulin i/o informar de les nostres activitats. En aquest sentit, es conservaran les dades durant els terminis legals establerts. Les dades recollides no seran objecte de cessió tret que prèviament s'obtingui el consentiment de l'interessat, tret d’obligació legal o en cas de que fos necessari per realitzar les activitats o donacions corresponents. <br>De conformitat amb el previst en la normativa sobre Protecció de Dades Personals, l’ASSOCIACIÓ BANYOLES SOLIDÀRIA ha adoptat les mesures de seguretat adequades i ha instal·lat els mitjans i mesures tècniques necessàries per evitar la pèrdua, mal ús, alteració, tractament o accés no autoritzat a les bases de dades i el robatori de les dades personals. Així mateix, es compromet a notificar, dins del termini establert, qualsevol intromissió que afecti al tractament. <br>En qualsevol moment, l’usuari tindrà la possibilitat d’exercir els drets d’accés, rectificació, oposició, supressió, limitació i portabilitat previstos al RGPD i LOPD-GDD. A tal efecte, l’usuari podrà contactar amb l’ ASSOCIACIÓ BANYOLES SOLIDÀRIA enviant un correu electrònic a l’adreça banyolessolidaria@gmail.com<br>En la sol·licitud hauran de figurar: el nom complet de l'usuari, numero del DNI/NIE/Passaport i fotocopia i descripció del dret exercitat; comprometent-se l’ASSOCIACIÓ BANYOLES SOLIDÀRIA a contestar en el termini legal previst. <br>Així mateix, en el supòsit de voler obtenir més informació no dubti a contactar amb nosaltres a través del correu electrònic banyolessolidaria@gmail.com i ampliarem la informació que consideri oportú."
     #links = [
